@@ -1,0 +1,14 @@
+.storybackground{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 600px;
+    height: 119px;
+    left: 257px;
+    top: 84px;
+
+    background: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+
+  }

@@ -1,0 +1,107 @@
+.Navbar {
+    background-color: white;
+    width:1440px;
+    height:60px;
+  }
+
+.navlogo{
+
+  position: absolute;
+  width: 103px;
+  height: 29px;
+  left: 257px;
+  top: 15px;
+
+}
+
+.search{
+  z-index: 1;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 530px;
+  top: 22px;
+  color:#8E8E8E;
+}
+
+.search-bar_input{
+  position: absolute;
+  width: 252px;
+  height: 36px;
+  left: 510px;
+  top: 12px;
+  background-color: #EFEFEF;
+  border-radius: 8px;
+  border:none;
+  text-align: center;
+}
+
+.search-bar_input:focus {
+  outline: none;
+  padding-left: 20px;
+  width: 252px;
+  height: 36px;
+  left: 510px;
+  top: 12px;
+  text-align: left;
+}
+
+.homeactive{
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 912px;
+top: 18px;
+
+}
+
+.msg{
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 961px;
+top: 18px;
+
+}
+
+.add{
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1010px;
+top: 18px;
+
+}
+
+.trends{
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1059px;
+top: 18px;
+
+}
+
+.likes{
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1108px;
+top: 18px;
+
+}
+
+.Ellipse1{
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1157px;
+top: 18px;
+
+}

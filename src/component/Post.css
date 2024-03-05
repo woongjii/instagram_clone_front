@@ -1,0 +1,13 @@
+.postbackground{
+box-sizing: border-box;
+
+position: absolute;
+width: 600px;
+height: 910px;
+left: 257px;
+top: 227px;
+
+border: 1px solid gray;
+border-radius: 3px;
+
+}
