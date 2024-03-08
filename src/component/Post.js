@@ -1,5 +1,10 @@
 import React from "react";
 import './Post.css';
+import like from '../image/like.png';
+import comments from '../image/comments.png';
+import share from '../image/share.png';
+import save from '../image/save.png';
+import options from '../image/options.png';
 
 function Post() {
     return(
@@ -8,14 +13,25 @@ function Post() {
             </div>
             <div className="postElement">
                 <div className="postprofile"></div>
-                <div className="postname"></div>
+                <div className="postname">doong_yi_nuna</div>
                 <div className="postpic"></div>
+                <img className='options' src={options}/>
                 <div className="posticon">
-                    <div className="postlike"></div>
-                    <div className="postcomm"></div>
-                    <div className="postshare"></div>
-                    <div className="postsave"></div>
+                    <img className='like' src={like}/>
+                    <img className='comments' src={comments}/>
+                    <img className='share' src={share}/>
+                    <img className='save' src={save}/>
                 </div>
+                <div className="postlikes">9,999 likes</div>
+                <div className="posttext">
+                    <div className="textname">doong_yi_nuna</div>
+                    <div className="text">hello my friends!</div>
+                    <div className="more">more</div>
+                </div>
+                <div className="commentcount">댓글 5개 모두 보기</div>
+                <input className="mycomment">
+
+                </input>
             </div>
         </>
     );
