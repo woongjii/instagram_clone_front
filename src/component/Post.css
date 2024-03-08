@@ -11,3 +11,195 @@ border: 1px solid gray;
 border-radius: 3px;
 
 }
+
+.postprofile{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 277px;
+    top: 241px;
+
+    background: #C4C4C4;
+
+    border-radius: 70%;
+    overflow: hidden;
+}
+
+.postname{
+
+    position: absolute;
+    width: 51px;
+    height: 16px;
+    left: 323px;
+    top: 249px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #262626;
+
+
+}
+
+.postpic{
+
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 257px;
+    top: 288px;
+
+    background: #C4C4C4;
+
+}
+
+.options{
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 813px;
+    top: 245px;
+
+}
+
+.like{
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 277px;
+    top: 903px;
+
+}
+
+.comments{
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 321px;
+    top: 903px;
+
+
+}
+
+.share{
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 365px;
+    top: 903px;
+
+}
+
+.save{
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 813px;
+    top: 903px;
+
+
+}
+
+.postlikes{
+
+    position: absolute;
+    width: 69px;
+    height: 16px;
+    left: 277px;
+    top: 942px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.textname{
+
+    position: absolute;
+    width: 51px;
+    height: 16px;
+    left: 277px;
+    top: 967px;
+
+    font-family: 'Roboto';
+    font-style:normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+.text{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor */
+
+    position: absolute;
+    width: 560px;
+    height: 36px;
+    left: 374px;
+    top: 957px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+
+.commentcount{
+
+    position: absolute;
+    width: 113px;
+    height: 16px;
+    left: 277px;
+    top: 1011px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #8E8E8E;
+
+
+}
+
+.mycomment{
+
+    position: absolute;
+    width: 600px;
+    height: 61px;
+    left: 257px;
+    top: 1076px;
+
+
+}
