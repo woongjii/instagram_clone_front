@@ -1,4 +1,5 @@
 import React from "react";
+import Comment from "./Comment.js";
 import './Post.css';
 import like from '../image/like.png';
 import comments from '../image/comments.png';
@@ -26,12 +27,9 @@ function Post() {
                 <div className="posttext">
                     <div className="textname">doong_yi_nuna</div>
                     <div className="text">hello my friends!</div>
-                    <div className="more">more</div>
                 </div>
                 <div className="commentcount">댓글 5개 모두 보기</div>
-                <input className="mycomment">
-
-                </input>
+                <Comment />
             </div>
         </>
     );
