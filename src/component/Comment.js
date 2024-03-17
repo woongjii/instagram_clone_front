@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Comment.css';
 
 function Comment(props) {
     const [comment, setComment] = useState('');

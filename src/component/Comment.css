@@ -1,0 +1,60 @@
+.commentContainer {
+
+position: absolute;
+width: 580px;
+height: 51px;
+left: 276px;
+top: 1000px;
+
+
+}
+
+/* 댓글 리스트 스타일 */
+.comment_ul_1 {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.comment_ul_1 li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* 댓글 입력 폼 스타일 */
+.commentWrap {
+    display: flex;
+    border-top: 1px solid #dbdbdb;
+    padding-top: 10px;
+}
+
+.commentWrap input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.commentWrap input[type="text"]:focus {
+    outline: none;
+}
+
+.commentBtn {
+    background: transparent;
+    border: none;
+    color: #3897f0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.commentBtn:disabled {
+    opacity: 0.3;
+}
+
+/* 추가적인 스타일링을 위한 클래스 */
+/* 예를 들어, 사용자 이름에 볼드 스타일을 적용하고 싶다면 */
+.comment_ul_1 li .username {
+    font-weight: bold;
+}
