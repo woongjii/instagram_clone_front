@@ -26,7 +26,6 @@ function Post(props) {
                     <img className='share' src={share}/>
                     <img className='save' src={save}/>
                 </div>
-                <div className="postlikes">9,999 likes</div>
                 <div className="posttext">
                     <div className="textname">doong_yi_nuna</div>
                     <div className="text">hello my friends!</div>
