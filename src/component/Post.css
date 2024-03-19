@@ -67,7 +67,7 @@ border-radius: 3px;
 
 }
 
-.like{
+.heart{
 
     position: absolute;
     width: 24px;
@@ -75,6 +75,14 @@ border-radius: 3px;
     left: 277px;
     top: 903px;
 
+}
+
+.heartIcon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 277px;
+    top: 903px;
 }
 
 .comments{

@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Comment from "./Comment.js";
 import './Post.css';
-import like from '../image/like.png';
+import heart from '../image/heart.png';
 import comments from '../image/comments.png';
 import share from '../image/share.png';
 import save from '../image/save.png';
 import options from '../image/options.png';
+import HeartButton from "./HeartButton.js";
 
-function Post() {
+function Post(props) {
+
+
     return(
         <>
             <div className="postbackground">
@@ -18,7 +21,7 @@ function Post() {
                 <div className="postpic"></div>
                 <img className='options' src={options}/>
                 <div className="posticon">
-                    <img className='like' src={like}/>
+                    <HeartButton/>
                     <img className='comments' src={comments}/>
                     <img className='share' src={share}/>
                     <img className='save' src={save}/>
